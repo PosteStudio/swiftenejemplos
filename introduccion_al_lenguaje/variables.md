@@ -17,3 +17,11 @@ var nombre: String
 ```
 
 En ambos casos, la variable `nombre` durante el resto de la ejecución de nuestro programa, sólo podrá contener `String`s.
+
+Una variable en Swift puede ser modificada en tiempo de ejecución, siempre y cuando se respete su tipo.
+
+```swift
+print(nombre)       // => Oscar
+nombre = "Marco"    // #=> Ahora nombre es igual a "Marco"
+print(nombre)       // => Marco
+```
