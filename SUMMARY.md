@@ -5,7 +5,7 @@
 * [Introducción al lenguaje](introduccion_al_lenguaje/index.md)
     * [Tipos de Datos]()
     * [Variables](introduccion_al_lenguaje/variables.md)
-    * [Constantes]()
+    * [Constantes](introduccion_al_lenguaje/constantes.md)
     * [Arrays]()
     * [Diccionarios]()
     * [Tuplas]()
