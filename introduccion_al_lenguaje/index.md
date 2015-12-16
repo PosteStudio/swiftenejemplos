@@ -7,7 +7,7 @@ Si este es tu primer intento de aprender Swift, hay algo que debes saber: **Swif
 
 Al contrario, Apple ha dicho que el objetivo de Swift es que sea un lenguaje de programación lo suficientemente simple para que sea el lenguaje con el que se enseñen a programar las nuevas generaciones, pero lo suficientemente poderoso para que puedas escribir un sistema operativo completo.
 
-De hecho, gracias al nuevo status de *open source* de Swift, ya incluso tenemos frameworks para [crear servicios web](http://perfect.org) o [aplicaciones de Android](github.com/SwiftAndroid/swift). Ambos, usando Swift.
+De hecho, gracias al nuevo status de *open source* de Swift, ya incluso tenemos frameworks para [crear servicios web](http://perfect.org) o [aplicaciones de Android](http://github.com/SwiftAndroid/swift). Ambos, usando Swift.
 
 
 ## Tu primer programa con Swift
