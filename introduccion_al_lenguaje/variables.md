@@ -13,7 +13,7 @@ El ejemplo anterior declara una variable de tipo `String`, ya que del lado derec
 Si queremos declarar una variable sin asignarle un valor inicial (como en el ejemplo anterior), podemos hacerlo declarando el tipo de dato que espera la variable:
 
 ```swift
-var nombre: String
+var nombre: String  // #=> Declarar la variable nombre de tipo String sin asignar un valor inicial
 nombre = "Oscar"
 ```
 ---
