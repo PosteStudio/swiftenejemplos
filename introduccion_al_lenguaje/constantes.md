@@ -18,7 +18,7 @@ numeroDeDiasEnLaSemana = 7 // #=> Asignamos el valor a la constante
 La característica de las constantes en Swift, es que una vez que se les asigna un primer valor, éste ya no puede ser cambiado, solamente leído.
 
 ```swift
-numeroDeDiasEnLaSemana = 9      // Error! numeroDeDiasEnLaSemana es inmutable y ya no se puede incializar de nuevo
+numeroDeDiasEnLaSemana = 9 // Error! numeroDeDiasEnLaSemana es inmutable y ya no se puede incializar de nuevo
 ```
 
 El compilador será inteligente y te sugerirá que cambies la declaración de tu constante para que ahora sea una variable (mutable) y puedas asignar ese nuevo valor.
