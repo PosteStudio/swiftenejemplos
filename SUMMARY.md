@@ -2,5 +2,5 @@
 
 * [Introducción](README.md)
 * [Primeros Pasos](primeros_pasos.md)
-* [Introducción al lenguaje](Introducciintrintroduccion_al_lenguaje.md)
+* [Introducción al lenguaje](introduccion_al_lenguaje/index.md)
 
