@@ -25,10 +25,11 @@ numeroDeDiasEnLaSemana = 9      // Error! numeroDeDiasEnLaSemana es inmutable y 
 El compilador será inteligente y te sugerirá que cambies la declaración de tu constante para que ahora sea una variable (mutable) y puedas asignar ese nuevo valor.
 
 ```bash
-hello.swift:4:24: error: immutable value 'numeroDeDiasEnLaSemana' may only be initialized once
+$ swift constantes.swift
+constantes.swift:4:24: error: immutable value 'numeroDeDiasEnLaSemana' may only be initialized once
 numeroDeDiasEnLaSemana = 9
                        ^
-hello.swift:1:1: note: change 'let' to 'var' to make it mutable
+constantes.swift:1:1: note: change 'let' to 'var' to make it mutable
 let numeroDeDiasEnLaSemana: Int
 ^~~
 var
