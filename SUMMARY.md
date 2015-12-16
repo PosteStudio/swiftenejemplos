@@ -4,7 +4,7 @@
 * [Primeros Pasos](primeros_pasos.md)
 * [Introducción al lenguaje](introduccion_al_lenguaje/index.md)
     * [Tipos de Datos](tipos_de_datos/index.md)
-        * [Int](tipos_de_datos/int.md)
+        * [Int](int.md)
         * [Double](tipos_de_datos/double.md)
         * [Float](tipos_de_datos/float.md)
         * [String](tipos_de_datos/string.md)
