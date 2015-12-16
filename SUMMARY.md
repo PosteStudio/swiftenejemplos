@@ -11,10 +11,10 @@
         * [Bool](introduccion_al_lenguaje/tipos_de_datos/bool.md)
     * [Variables](introduccion_al_lenguaje/variables.md)
     * [Constantes](introduccion_al_lenguaje/constantes.md)
-    * [Arrays]()
-    * [Diccionarios]()
-    * [Tuplas]()
-    * [Funciones]()
+    * [Arrays](introduccion_al_lenguaje/arrays.md)
+    * [Diccionarios](introduccion_al_lenguaje/diccionarios.md)
+    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
+    * [Funciones](introduccion_al_lenguaje/funciones.md)
 * [Swift Intermedio]()
     * Control de flujo
     * guard
