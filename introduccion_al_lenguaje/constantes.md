@@ -1,10 +1,12 @@
 # Constantes
 
-Una constante en Swift se declara usando la palabra reservada `let`.
+Una constante en Swift se declara usando la palabra reservada `let`. 
 
 ```swift
 let numeroDeDiasEnLaSemana = 7
 ```
+
+Las constantes son conocidos como "valores inmutables" dentro de Swift, no precisamente "constantes."
 
 Al igual que las variables, no es necesario declarar explícitamente el tipo de dato de la constante si se le asignará un valor inicial en la misma declaración. Podemos declarar una constante sin valor inicial, de la siguiente forma:
 
@@ -17,9 +19,9 @@ La característica de las constantes en Swift, es que una vez que se les asigna 
 
 ```swift
 print(numeroDeDiasEnLaSemana)   // => 7
-numeroDeDiasEnLaSemana = 9      // Error! numeroDeDiasEnLaSemana ya tenía un valor
+numeroDeDiasEnLaSemana = 9      // Error! numeroDeDiasEnLaSemana es inmutable y ya no se puede incializar de nuevo
 ```
 
-El compilador será inteligente y te sugerirá que cambies la declaración de tu constante para que ahora sea una variable y puedas asignar ese valor.
+El compilador será inteligente y te sugerirá que cambies la declaración de tu constante para que ahora sea una variable (mutable) y puedas asignar ese nuevo valor.
 
 ![](Screen Shot 2015-12-16 at 1.29.34 PM.png)
