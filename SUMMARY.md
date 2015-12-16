@@ -1,7 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
-* Cómo usar este libro
+* [Cómo usar este libro](como_usar_este_libro.md)
 * [Primeros Pasos](primeros_pasos.md)
 * [Introducción al lenguaje](introduccion_al_lenguaje/index.md)
    * [Tipos de Datos](introduccion_al_lenguaje/tipos_de_datos/index.md)
