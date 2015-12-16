@@ -29,7 +29,7 @@ $ swift holamundo.swift
 Después de unos momentos verás un texto aparecer debajo de tu instrucción:
 
 ```bash
-$ swift holamundo
+$ swift holamundo.swift
 Hola mundo!
 ```
 
