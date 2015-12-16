@@ -11,6 +11,7 @@
     * [Tuplas]()
     * [Funciones]()
 * [Swift Intermedio]()
+    * Control de flujo
     * guard
     * where
     * Búsqueda de Patrones
@@ -21,4 +22,4 @@
     * Tipos de datos de Referencia
     * Extensiones
     * [Protocolos]()
-    * Implementaciones por defecto de Protocolos
+    * Implementación por defecto de Protocolos
