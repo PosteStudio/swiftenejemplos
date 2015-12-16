@@ -24,3 +24,11 @@ $ swift helloworld.swift
 // helloworld.swift
 print("Hello world!")
 ```
+* Si se espera que la línea de código en el listado tenga algún resultado en pantalla, se denotará el mismo usando la notación `// #=>`. Ejemplo:
+```swift
+print((0...2).count) // #=> 3
+```
+* Los comentarios generales en las líneas de código específicas serán expresados a través de la sintaxis de comentario de Swift `//`. Ejemplo:
+```swift
+let array: [String] // Declaramos una constante de tipo Array<String>
+```
