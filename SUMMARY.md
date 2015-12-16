@@ -14,8 +14,8 @@
    * [Constantes](introduccion_al_lenguaje/constantes.md)
    * [Arrays](introduccion_al_lenguaje/arrays.md)
    * [Diccionarios](introduccion_al_lenguaje/diccionarios.md)
-   * [Tuplas](introduccion_al_lenguaje/tuplas.md)
    * [Funciones](introduccion_al_lenguaje/funciones.md)
+   * [Tuplas](introduccion_al_lenguaje/tuplas.md)
 * Swift Intermedio
    * Control de flujo
    * guard
