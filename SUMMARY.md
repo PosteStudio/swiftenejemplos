@@ -14,11 +14,11 @@
     * guard
     * where
     * Búsqueda de Patrones
-    *  [Enumeraciones]()
-    *  [Estructuras]()
-    *  [Clases]()
-    *  Tipos de datos de Valor
-    *  Tipos de datos de Referencia
-    *  Extensiones
-    *  [Protocolos]()
-    *  Implementaciones por defecto de Protocolos
+    * [Enumeraciones]()
+    * [Estructuras]()
+    * [Clases]()
+    * Tipos de datos de Valor
+    * Tipos de datos de Referencia
+    * Extensiones
+    * [Protocolos]()
+    * Implementaciones por defecto de Protocolos
