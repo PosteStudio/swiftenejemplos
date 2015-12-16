@@ -6,3 +6,5 @@
     * [Variables]()
     * [Constantes]()
     * [Tipos de Datos]()
+    * [Funciones]()
+* [Swift Intermedio]()
