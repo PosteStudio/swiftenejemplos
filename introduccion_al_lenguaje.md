@@ -12,8 +12,9 @@ De hecho, gracias al nuevo status de *open source* de Swift, ya incluso tenemos 
 
 ## Tu primer programa con Swift
 
+
+[Siguiendo la costumbre](https://es.wikipedia.org/wiki/Hola_mundo), el primer programa que escribirás en cualquier lenguaje de programación será el *Hola Mundo.*
+
 ```swift
 print("Hola mundo!")
 ```
-
-[Siguiendo la costumbre](https://es.wikipedia.org/wiki/Hola_mundo), el primer programa que escribirás en cualquier lenguaje de programación será el *Hola Mundo.*
