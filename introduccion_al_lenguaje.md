@@ -33,3 +33,6 @@ $ swift holamundo
 Hola mundo!
 ```
 
+Swift incluye una función como parte del lenguaje llamada `print` que acepta un *parámetro* de tipo `String`, el cual es impreso en la pantalla.
+
+Una vez escrita esa instrucción de forma adecuada en un archivo con extensión `.swift` (la extensión que reconoce el compilador de Swift como código fuente), podemos compilarla y ejecutarla usando el comando `swift` desde nuestra linea de comandos. 
