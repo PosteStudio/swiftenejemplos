@@ -8,3 +8,7 @@
     * [Tipos de Datos]()
     * [Funciones]()
 * [Swift Intermedio]()
+    *  [Enumeraciones]()
+    *  [Estructuras]()
+    *  [Clases]()
+    *  [Protocolos]()
