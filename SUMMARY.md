@@ -13,7 +13,7 @@
     * [Constantes](introduccion_al_lenguaje/constantes.md)
     * [Arrays](introduccion_al_lenguaje/arrays.md)
     * [Diccionarios](introduccion_al_lenguaje/diccionarios.md)
-    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
+    * Tuplas
     * [Funciones](introduccion_al_lenguaje/funciones.md)
 * [Swift Intermedio]()
     * Control de flujo
