@@ -16,3 +16,4 @@ Array<Int>
 ```
 
 Esto significa que el array `enteros` solamente puede contener datos de tipo `Int`. Otra forma de representar el tipo de dato de esta constante es `[Int]`.
+
