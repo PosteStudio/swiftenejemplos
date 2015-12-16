@@ -1,2 +1,26 @@
 # Cómo usar este libro
 
+Los contenidos de este libro están disponibles completamente gratis en su [repositorio de GitHub](http://github.com/PosteStudio/swiftenejemplos), desde donde puedes descargar todos los contenidos en formato `.zip`.
+
+Todos los artículos en este libro están escritos usando la sintaxis Markdown. Si encuentras algún error, o quieres aportar un artículo en específico, siempre puedes abrir un Pull Request al repositorio. Tu contribución será (posiblemente) editada, para posteriormente ser evaluada su inclusión en el libro.
+
+
+## Listados de código
+
+A lo largo del libro encontrarás varios listados de código donde se muestran ejemplos específicos de Swift. Hay varias consideraciones al respecto:
+
+
+* Cuando el código deba de ser escrito directamente en la terminal (línea de comandos), el primer caracter en la línea será `$`. Ejemplo:
+```bash 
+$ swift helloworld.swift
+```
+* Cuando el código deba de ser escrito en el REPL de Swift, la líneas del listado comenzarán con un número de línea. Ejemplo:
+```bash
+1> let myVar = "Hello world!"
+2> print(myVar)
+```
+* Cuando el código deba de ser escrito en un archivo específico, se especificará el nombre del mismo como un comentario en la primera línea del listado. Ejemplo:
+```swift
+// helloworld.swift
+print("Hello world!")
+```
