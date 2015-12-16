@@ -3,7 +3,7 @@
 Las tuplas agrupan datos en un mismo objeto. A diferencia de los arrays, los *miembros* de una tupla **no deben de ser del mismo tipo.**
 
 ```swift
-let usuario = ("Oscar Swanros", 22)
+let usuario = ("Oscar Swanros", 22) // => (.0 "Oscar Swanros", .1 22)
 ```
 
 En el ejemplo anterior, declaramos una tupla llamada `usuario` que contiene `"Oscar Swanros"` y `22` como sus miembros. En este caso, diríamos que la tupla sería de tipo `(String, Int)`.
