@@ -26,4 +26,5 @@ Una variable en Swift puede ser modificada en tiempo de ejecución, siempre y cu
 print(nombre)       // => Oscar
 nombre = "Marco"    // #=> Ahora nombre es igual a "Marco"
 print(nombre)       // => Marco
+nombre = 2          // #=> Error! 2 no un tipo de dato String
 ```
