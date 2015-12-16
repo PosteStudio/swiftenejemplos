@@ -18,7 +18,6 @@ Si queremos declarar una variable sin asignarle un valor inicial (como en el eje
 var nombre: String  // #=> Declarar la variable nombre de tipo String sin asignar un valor inicial
 nombre = "Oscar"
 ```
----
 
 En ambos casos, la variable `nombre` durante el resto de la ejecución de nuestro programa, sólo podrá contener `String`s.
 
