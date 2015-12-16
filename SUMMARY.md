@@ -3,7 +3,7 @@
 * [Introducción](README.md)
 * [Primeros Pasos](primeros_pasos.md)
 * [Introducción al lenguaje](introduccion_al_lenguaje/index.md)
-    * [Tipos de Datos](tipos_de_datos/index.md)
+    * [Tipos de Datos](introduccion_al_lenguaje/tipos_de_datos/index.md)
         * [Int](int.md)
         * [Double](tipos_de_datos/double.md)
         * [Float](tipos_de_datos/float.md)
