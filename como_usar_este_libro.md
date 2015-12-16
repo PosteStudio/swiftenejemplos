@@ -3,7 +3,7 @@
 Los contenidos de este libro están disponibles completamente gratis en su [repositorio de GitHub](http://github.com/PosteStudio/swiftenejemplos), desde donde puedes descargar todos los contenidos en formato `.zip`.
 
 ## Errores en los artículos y contribuciones
-Todos los artículos en este libro están escritos usando la sintaxis Markdown. Si encuentras algún error, o quieres aportar un artículo en específico, siempre puedes abrir un Pull Request al repositorio. Tu contribución será (posiblemente) editada, para posteriormente ser evaluada su inclusión en el libro.
+Todos los artículos en este libro están escritos usando la sintaxis Markdown. Si encuentras algún error, o quieres aportar un artículo en específico, siempre puedes [abrir un Pull Request al repositorio](https://github.com/PosteStudio/swiftenejemplos/pulls). Tu contribución será (posiblemente) editada, para posteriormente ser evaluada su inclusión en el libro.
 
 
 ## Listados de código
