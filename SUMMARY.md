@@ -8,7 +8,7 @@
        * [Double](introduccion_al_lenguaje/tipos_de_datos/double.md)
        * [Float](introduccion_al_lenguaje/tipos_de_datos/float.md)
        * [String](introduccion_al_lenguaje/tipos_de_datos/string.md)
-       * [Bool](introduccion_al_lenguaje/tipos_de_datos/bool.md)
+       * Bool
    * [Variables](introduccion_al_lenguaje/variables.md)
    * [Constantes](introduccion_al_lenguaje/constantes.md)
    * [Arrays](introduccion_al_lenguaje/arrays.md)
