@@ -11,7 +11,9 @@ En el ejemplo anterior creamos una constante llamada `enteros` y le asignamos un
 Si inspeccionamos la constante `enteros` nos vamos a dar cuenta que su tipo es `Array<Int>`, o sea, array de enteros. 
 
 ```bash
-1> print(enteros.dynamicType)
+$ swift
+1> let enteros = [1, 2, 3]
+2> print(enteros.dynamicType)
 Array<Int>
 ```
 
