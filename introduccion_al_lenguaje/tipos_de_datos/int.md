@@ -14,7 +14,7 @@ Lo anterior es cierto tambíen para `UInt` y sus variantes.
 
 ### Representación literal
 ```swift
-let a = 2
-let b = 32
-let d = -5
+let dedosEnLaMano = 5
+let autosEnLaCochera = 2
+let estrellasEnElCielo = 1_000_000 // Puedes usar _ entre números para mejorar la legibilidad
 ```
