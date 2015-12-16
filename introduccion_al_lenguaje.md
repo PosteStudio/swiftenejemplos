@@ -14,7 +14,7 @@ De hecho, gracias al nuevo status de *open source* de Swift, ya incluso tenemos 
 
 [Siguiendo la costumbre](https://es.wikipedia.org/wiki/Hola_mundo), el primer programa que escribirás en cualquier lenguaje de programación será el *Hola Mundo.*
 
-Crea un archivo de texto `helloworld.swift` en tu escritorio y escribe lo siguiente dentro:
+Crea un archivo de texto `holamundo.swift` en tu escritorio y escribe lo siguiente dentro:
 
 ```swift
 print("Hola mundo!")
@@ -23,6 +23,13 @@ print("Hola mundo!")
 Ahora, desde tu terminal navega a tu escritorio y escribe lo siguiente y presiona `Enter`:
 
 ```bash
-$ swift helloworld.swift
+$ swift holamundo.swift
+```
+
+Después de unos momentos verás un texto aparecer debajo de tu instrucción:
+
+```bash
+$ swift holamundo
 Hola mundo!
 ```
+
