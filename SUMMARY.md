@@ -11,11 +11,12 @@
     * [Tuplas]()
     * [Funciones]()
 * [Swift Intermedio]()
-    * `guard`
-    * `where`
-    * *Pattern Matching*
+    * guard
+    * where
+    * Búsqueda de Patrones
     *  [Enumeraciones]()
     *  [Estructuras]()
     *  [Clases]()
+    *  
     *  [Protocolos]()
     *  
