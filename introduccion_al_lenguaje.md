@@ -2,7 +2,7 @@
 Swift es un lenguaje de programación increíble: su sintáxis es limpia, entendible (casi como pseudocódigo) sin sacrificar rendimiento y/ó velocidad.
 
 
-# Aplicaciones
+## Aplicaciones
 Si este es tu primer intento de aprender Swift, hay algo que debes saber: **Swift no solamente funciona para crear aplicaciones para iOS/OS X.** 
 
 Al contrario, Apple ha dicho que el objetivo de Swift es que sea un lenguaje de programación lo suficientemente simple para que sea el lenguaje con el que se enseñen a programar las nuevas generaciones, pero lo suficientemente poderoso para que puedas escribir un sistema operativo completo.
