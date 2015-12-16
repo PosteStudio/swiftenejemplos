@@ -12,7 +12,7 @@ Al igual que las variables, no es necesario declarar explícitamente el tipo de 
 
 ```swift
 let numeroDeDiasEnLaSemana: Int // #=> Declaramos la constante tipo Int sin asignar un valor inicial
-numeroDeDiasEnLaSemana = 7 // #=> Asignamos el valor a la constante
+numeroDeDiasEnLaSemana = 7      // #=> Asignamos el valor a la constante
 ```
 
 La característica de las constantes en Swift, es que una vez que se les asigna un primer valor, éste ya no puede ser cambiado, solamente leído.
