@@ -3,7 +3,7 @@
 Si Swift tiene algo que llama la atención a primera vista, son los signos de interrogación y exclamación que se llegan a ver en el código de vez en vez.
 
 ```swift
-var nivelDeEstudios: String?
+var nivelDeEstudios: NivelDeEstudios?
 ```
 
 A cualquier tipo de dato que sea seguido de un signo de interrogación se le conoce como un valor opcional. 
