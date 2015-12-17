@@ -57,8 +57,24 @@ func generarUsuario(nombre: String?, apellido: String?, edad: Int?, direccion: S
             }
         }
     }
+    
+    // Si el parámetro nombre era nil, no podemos construir la tupla Usuario
+    return nil
 }
 ```
 
 Usando `guard`, nuestro código cambia tremendamente:
 
+```swift
+func generarUsuario(nombre: String?, apellido: String?, edad: Int?, direccion: String?) -> Usuario? {
+    guard
+        let nombre = nombre,
+        let apellido = apellido,
+        let edad = edad,
+        let direccion = direccion else {
+            return nil
+    }
+    
+    return (nombre, apellido, edad, direccion)
+}
+```
