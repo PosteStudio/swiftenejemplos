@@ -5,7 +5,7 @@ Los contenidos de este libro están disponibles completamente gratis en su [repo
 ## Versión de Swift
 Todos los ejemplos de este libro están probados con la última versión de Swift disponible a través de los canales finales de Apple. Actualmente: **Swift 2.1.**
 
-# Errores en los artículos y contribuciones
+## Errores en los artículos y contribuciones
 Todos los artículos en este libro están escritos usando la sintaxis Markdown. Si encuentras algún error, o quieres aportar un artículo en específico, siempre puedes [abrir un Pull Request al repositorio](https://github.com/PosteStudio/swiftenejemplos/pulls). Tu contribución será (posiblemente) editada, para posteriormente ser evaluada su inclusión en el libro.
 
 
