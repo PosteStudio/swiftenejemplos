@@ -51,7 +51,7 @@ func generarUsuario(nombre: String?, apellido: String?, edad: Int?, direccion: S
     if let nombre = nombre {
         if let apellido = apellido {
             if let edad = edad {
-                if let direccion {
+                if let direccion = direccion {
                     return (nombre, apellido, edad, direccion)
                 }
             }
@@ -59,3 +59,6 @@ func generarUsuario(nombre: String?, apellido: String?, edad: Int?, direccion: S
     }
 }
 ```
+
+Usando `guard`, nuestro código cambia tremendamente:
+
