@@ -12,7 +12,7 @@ Puedes encontrar más información sobre el libro y cómo usarlo en [Cómo usar 
 
 
 ## Acerca De SwiftEnEjemplos.com
-[SwiftEnEjemplos.com](http://swiftenejemplos.com) es mantenido por [Oscar Swanros](http://swanros.com), pero es un trabajo de comunidad. 
+[SwiftEnEjemplos.com](http://swiftenejemplos.com) es mantenido por mi, [Oscar Swanros](http://swanros.com), pero es un trabajo de comunidad.
 
 Como todo en el mundo de la programación, Swift aún es un lenguaje que está cambiando día con día (más ahora que es un proyecto opendede código libre). Este proyecto, de igual forma, es un trabajo en proceso y cualquier aportación es agradecida. 
 
