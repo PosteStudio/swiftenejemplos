@@ -17,7 +17,7 @@
    * [Funciones](introduccion_al_lenguaje/funciones.md)
    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
 * [Swift Intermedio](swift_intermedio.md)
-   * Opcionales
+   * [Opcionales](opcionales.md)
    * Control de flujo
    * [guard](guard.md)
    * [where](where.md)
