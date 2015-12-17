@@ -38,7 +38,7 @@ En el listado de código anterior sucede lo siguiente:
 1. Declaramos la variable `nivelDeEstudios` como un `NivelDeEstudios?`
 2. El programa sigue su ejecución. 
 3. Al momento en que la ejecución del programa llega a la función `terminarEncuesta`, debemos de verificar si esa variable tiene o no datos.
-4. Usamos Extracción de Opcionales (u Optional Binding, en Inglés), para que, en caso de que la variable `nivelDeEstudios` **contenga** algún valor, éste sea asignado a la constante `nivel`. 
+4. Usamos **Extracción de Opcionales** (u **Optional Binding**, en Inglés), para que, en caso de que la variable `nivelDeEstudios` **contenga** algún valor, éste sea asignado a la constante `nivel`. 
 5. La variable nivel ahora es un valor de tipo `NivelDeEstudios` que podemos manipular libremente, porque sabemos que es un valor que existe.
 
 Conocer bien los opcionales es importante, puesto que nos protegen de errores en nuestros programas donde podríamos creer que tenemos información para procesar, pero en realidad no es así.
