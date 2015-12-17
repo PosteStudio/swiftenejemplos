@@ -30,7 +30,25 @@ print(usuario.0)    // #=> Oscar Swanros
 print(usuario.1)    // #=> 22
 ```
 
-Aunque una "tupla" no tiene un tipo único en Swift como `Int`, `Array` o `String`, podemos usar las tuplas como cualquier otro tipo de dato en nuestros programas.
+Al igual que con las funciones y sus parámetros etiquetados, podemos poner etiquitas a los miembros de una tupla:
+
+```swift
+let usuario = (nombre: "Oscar Swanros", edad: 22) // => (.0 "Oscar Swanros", .1 22)
+usuario.nombre      // => Oscar Swanros
+usuario.edad        // => 22
+```
+
+Aunque una "tupla" no tiene un tipo único en Swift como `Int`, `Array` o `String`, podemos usar las tuplas como cualquier otro tipo de dato en nuestros programas. Incluso como tipo de retorno en funciones:
+
+```swift
+func generarUsuario(nombre nombre: String, edad: Int) -> (nombre: String, edad: Int) {
+    return (nombre, edad)
+}
+
+let usuario = generarUsuario(nombre: "Oscar Swanros", edad: 22)
+print(usuario.nombre)   // #=> Oscar Swanros
+print(usuario.edad)     // #=> 22
+```
 
 Es importante diferenciar las tuplas de los arrays. 
 
