@@ -16,7 +16,7 @@
    * [Diccionarios](introduccion_al_lenguaje/diccionarios.md)
    * [Funciones](introduccion_al_lenguaje/funciones.md)
    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
-* Swift Intermedio
+* [Swift Intermedio](swift_intermedio.md)
    * Control de flujo
    * guard
    * where
@@ -30,6 +30,4 @@
    * Extensiones
    * Protocolos
    * Implementación por defecto de Protocolos
-<!--* Extras-->
-<!--   * [Lista de palabras reservadas](extras/lista_de_palabras_reservadas.md)-->
 
