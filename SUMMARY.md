@@ -20,7 +20,7 @@
    * Opcionales
    * Control de flujo
    * [guard](guard.md)
-   * where
+   * [where](where.md)
    * Ciclos
    * Búsqueda de Patrones
    * Enumeraciones
