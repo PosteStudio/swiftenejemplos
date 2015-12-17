@@ -17,3 +17,17 @@ Puedes encontrar más información sobre el libro y cómo usarlo en [Cómo usar 
 Como todo en el mundo de la programación, Swift aún es un lenguaje que está cambiando día con día (más ahora que es un proyecto opendede código libre). Este proyecto, de igual forma, es un trabajo en proceso y cualquier aportación es agradecida. 
 
 Conoce más acerca de cómo puedes contribuir a SwiftEnEjemplos.com en la sección [Errores en los artículos y contribuciones](http://www.swiftenejemplos.com/como_usar_este_libro.html#errores-en-los-art%C3%ADculos-y-contribuciones)
+
+<br>
+---
+
+***Nota de Oscar:***
+
+Espero que disfrutes SwiftEnEjemplos.com. Pero aún más, espero que te sea útil y te diviertas leyéndolo tanto como yo divertí escribiendo cada uno de los artículos que lo comprenden.
+
+— O.
+
+* http://swanros.com
+* [oscar@swanros.com](mailto:oscar@swanros.com?subject=SwiftEnEjemplos.com)
+* [@Swanros en Twitter](http://twitter.com/Swanros)
+
