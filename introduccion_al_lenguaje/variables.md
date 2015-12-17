@@ -6,7 +6,7 @@ Una variable en Swift se declara con la palabra reservada `var`.
 var nombre = "Oscar"
 ```
 
-Las constantes son conocidos como "valores mutables" dentro de Swift, no precisamente "variables."
+Las variables son conocidos como "valores mutables" dentro de Swift, no precisamente "variables."
 
 Una de las ventajas de Swift es su excelente sistema de inferencia de tipos de datos, lo que significa que el compilador automáticamente sabe de qué tipo es tu variable sin la necesidad de expresarlo explícitamente.
 
