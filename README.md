@@ -22,7 +22,7 @@ Conoce más acerca de cómo puedes contribuir a SwiftEnEjemplos.com en la secci�
 
 ***Nota de Oscar:***
 
-Espero que disfrutes SwiftEnEjemplos.com. Pero aún más, espero que te sea útil y te diviertas leyéndolo tanto como yo divertí escribiendo cada uno de los artículos que lo comprenden.
+Espero que disfrutes SwiftEnEjemplos.com. Pero aún más, que te sea útil y te diviertas leyéndolo tanto como yo divertí escribiendo cada uno de los artículos que lo comprenden.
 
 — O.
 
