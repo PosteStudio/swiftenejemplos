@@ -47,3 +47,24 @@ func verificarMayoriaDeEdad(nombreCompleto: String?, edad: Int) -> String {
 }
 verificarMayoriaDeEdad("Oscar Swanros", edad: 14) // #=> Lo siento, no puedes entrar
 ```
+
+### Otros usos de `where`:
+
+#### Switch:
+
+```swift
+let tupla = (14, "Gerardo Swanros")
+
+switch tupla {
+case let (edad, _) where edad >= 18:
+    print("Eres mayor de edad!")
+    
+case let (_, nombre) where nombre == "Oscar Swanros":
+    print("Eres \(nombre)!")
+    
+default:
+    print("No se nada sobre ti")
+}
+
+// #=> "No se nada sobre ti"
+```
