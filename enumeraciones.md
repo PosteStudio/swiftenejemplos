@@ -32,7 +32,13 @@ enum UtencilioDeCocina: String {
 }
 
 let tenedor = UtencilioDeCocina(rawValue: "tenedor") // => Tenedor
-let cuchillo = UtencilioDeCocina(rawValue: "cuchara sopera") // => nil
+let cuchillo = UtencilioDeCocina(rawValue: "cuchara sopera") // => nil, "cuchara sopera" no está declarada como miembro de respaldo de la enumeración
 ```
 
 Usando el constructor `rawValue:` podemos pasar un argumento del tipo de dato que respalda a la enumeración. Si el dato que pasamos al constructor es igual a uno de los declarados en la enumeración, se generará una instancia de la enumeración.
+
+Del mismo modo, podemos obtener el valor de respaldo de una instancia de una enumeración usando la propiedad `rawValue`:
+
+```swift
+print(UtencilioDeCocina.Cuchillo.rawValue) // #=> cuchillo
+```
