@@ -69,3 +69,22 @@ default:
 // #=> No se nada sobre ti
 ```
 
+#### Restricciones de tipo en funciones genéricas
+```swift
+enum Animal {
+    case Perro
+}
+extension Animal: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .Perro: return "El mejor amigo del hombre"
+        }
+    }
+}
+
+func obtenerDescripcionDeObjeto<T where T: CustomStringConvertible>(objeto: T) -> String {
+    return objeto.description
+}
+
+obtenerDescripcionDeObjeto(Animal.Perro) // #=> El mejor amigo del hombre
+```
