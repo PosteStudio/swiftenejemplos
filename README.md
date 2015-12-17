@@ -18,7 +18,6 @@ Como todo en el mundo de la programación, Swift aún es un lenguaje que está c
 
 Conoce más acerca de cómo puedes contribuir a SwiftEnEjemplos.com en la sección [Errores en los artículos y contribuciones](http://www.swiftenejemplos.com/como_usar_este_libro.html#errores-en-los-art%C3%ADculos-y-contribuciones)
 
-<br>
 ---
 
 ***Nota de Oscar:***
