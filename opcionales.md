@@ -14,7 +14,7 @@ var nivelDeEstudios: NivelDeEstudios?
 
 A cualquier tipo de dato que sea seguido de un signo de interrogación se le conoce como un valor opcional. 
 
-En el ejemplo anterior, tenemos un valor `NivelDeEstudios?` (se lee "Nivel de estudios opcional"). Esto significa que la variable `nivelDeEstudios` ***puede*** contener un valor de tipo `NivelDeEstudios`, pero ***no es seguro que lo contenga.*** Es como si la variable dijera: "tal vez tenga un string dentro, no sé."
+En el ejemplo anterior, tenemos un valor `NivelDeEstudios?` (se lee "Nivel de estudios opcional"). Esto significa que la variable `nivelDeEstudios` ***puede*** contener un valor de tipo `NivelDeEstudios`, pero ****no* es seguro que lo contenga.*** Es como si la variable dijera: "tal vez tenga un string dentro, no sé."
 
 Los opcionales en Swift nos ayudan a manejar de mejor manera la información con la que trabaja nuestro programa: en un programa que recabe datos para una encuesta, el encuestado tal vez quiera o no decir su nivel de estudios, es por eso que esa variable está marcada como opcional.
 
