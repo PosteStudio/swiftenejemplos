@@ -40,5 +40,5 @@ Usando el constructor `rawValue:` podemos pasar un argumento del tipo de dato qu
 Del mismo modo, podemos obtener el valor de respaldo de una instancia de una enumeración usando la propiedad `rawValue`:
 
 ```swift
-print(UtencilioDeCocina.Cuchillo.rawValue) // #=> cuchillo
+print(UtencilioDeCocina.Cuchillo.rawValue) // #=> "cuchillo"
 ```
