@@ -45,6 +45,17 @@ En el ejemplo anterior, usamos `guard` para asegurarnos de que el opcional `cade
 Imagina una pieza de código donde se necesita evaluar diferentes condiciones para que el programa pueda continuar. Antes de Swift 2.0, ese código se vería algo así:
 
 ```swift
-func generarUsuario(nombre: String?, apellido: String?, edad: Int?, dirección: String?) -> Usuario? {
+typealias Usuario = (nombre: String, apellido: String, edad: Int, direccion: String)
+
+func generarUsuario(nombre: String?, apellido: String?, edad: Int?, direccion: String?) -> Usuario? {
+    if let nombre = nombre {
+        if let apellido = apellido {
+            if let edad = edad {
+                if let direccion {
+                    return (nombre, apellido, edad, direccion)
+                }
+            }
+        }
+    }
 }
 ```
