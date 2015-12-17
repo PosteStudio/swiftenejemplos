@@ -3,6 +3,12 @@
 Si Swift tiene algo que llama la atención a primera vista, son los signos de interrogación y exclamación que se llegan a ver en el código de vez en vez.
 
 ```swift
+enum NivelDeEstudios {
+    case Primaria
+    case Secundaria
+    case Preparatoria
+}
+
 var nivelDeEstudios: NivelDeEstudios?
 ```
 
@@ -13,7 +19,7 @@ En el ejemplo anterior, tenemos un `String?` (se lee "String opcional"). Esto si
 Los opcionales en Swift nos ayudan a manejar de mejor manera la información con la que trabaja nuestro programa: en un programa que recabe datos para una encuesta, el encuestado tal vez quiera o no decir su nivel de estudios, es por eso que esa variable está marcada como opcional.
 
 ```swift
-var nivelDeEstudios: String? = "Secundaria"
+var nivelDeEstudios: NivelDeEstudios? = .Preparatoria
 
 func terminarEncuesta() {
     // No sabemos si nivelDeEstudios contiene un valor
