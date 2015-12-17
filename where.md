@@ -66,5 +66,5 @@ default:
     print("No se nada sobre ti")
 }
 
-// #=> "No se nada sobre ti"
+// #=> No se nada sobre ti
 ```
