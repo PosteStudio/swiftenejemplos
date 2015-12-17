@@ -18,7 +18,7 @@
    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
 * [Swift Intermedio](swift_intermedio.md)
    * Control de flujo
-   * guard
+   * [guard](guard.md)
    * where
    * Ciclos
    * Búsqueda de Patrones
