@@ -78,3 +78,4 @@ func generarUsuario(nombre: String?, apellido: String?, edad: Int?, direccion: S
     return (nombre, apellido, edad, direccion)
 }
 ```
+ 
