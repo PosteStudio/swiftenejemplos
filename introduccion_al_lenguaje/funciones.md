@@ -45,5 +45,3 @@ sumar(2, con: 3) // => 5
 Ahora, nuestra función sigue teniendo dos parámetros de tipo entero. El primer parámetro se omitirá en la llamada a la función, y el segundo parámetro será representado externamente usando `con`, pero internamente usando `segundoNumero`. Estamos haciendo uso del etiquetado de parámetros.
 
 Hacer buen uso de esta capacidad de Swift resulta en código mucho más legible, como vimos anteriormente.
-
-Una función también puede retornar más de un tipo de dato.
