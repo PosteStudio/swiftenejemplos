@@ -22,14 +22,17 @@ let autor: TipoDeUsuario = .Autor
 
 Ambas constantes son de tipo `TipoDeUsuario`.
 
-Las enumeraciones también se pueden crear a partir de datos:
+Las enumeraciones también se pueden crear a partir de datos. A continuación declaramos una enumeración que tiene `String` como tipo de dato de respaldo para cada caso:
+
 ```swift
-enum UtencilioDeCocina {
+enum UtencilioDeCocina: String {
     case Tenedor = "tenedor"
     case Cuchillo = "cuchillo"
     case Cuchara = "cuchara"
 }
 
-let cuchara = UtencilioDeCocina(rawValue: "tenedor")
+let tenedor = UtencilioDeCocina(rawValue: "tenedor") // => Tenedor
+let cuchillo = UtencilioDeCocina(rawValue: "cuchara sopera") // => nil
 ```
 
+Usando el constructor `rawValue:` podemos pasar un argumento del tipo de dato que respalda a la enumeración. Si el dato que pasamos al constructor es igual a uno de los declarados en la enumeración, se generará una instancia de la enumeración.
