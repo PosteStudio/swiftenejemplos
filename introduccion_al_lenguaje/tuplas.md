@@ -53,4 +53,4 @@ print(usuario.edad)     // #=> 22
 Es importante diferenciar las tuplas de los arrays. 
 
 * **Un array tiene elementos**, puede ser manipulado, escrito y leído.
-* Una **tupla tiene miembros**, solamente pueden ser leídos y reemplazados de forma individual, siempre y cuando no se afecte el tipo de dato de la tupla.
+* **Una tupla tiene miembros**, solamente pueden ser leídos y reemplazados de forma individual, siempre y cuando no se afecte el tipo de dato de la tupla.
