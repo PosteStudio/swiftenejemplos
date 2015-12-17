@@ -20,6 +20,7 @@
    * Control de flujo
    * guard
    * where
+   * Ciclos
    * Búsqueda de Patrones
    * Enumeraciones
    * Estructuras
