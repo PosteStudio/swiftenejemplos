@@ -17,13 +17,13 @@
    * [Funciones](introduccion_al_lenguaje/funciones.md)
    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
 * [Swift Intermedio](swift_intermedio.md)
+   * Enumeraciones
    * [Opcionales](opcionales.md)
    * Control de flujo
    * [guard](guard.md)
    * [where](where.md)
    * Ciclos
    * Búsqueda de Patrones
-   * Enumeraciones
    * Estructuras
    * Clases
    * Tipos de datos de Valor
