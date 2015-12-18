@@ -20,6 +20,8 @@ let admin = TipoDeUsuario.Admin
 let autor: TipoDeUsuario = .Autor
 ```
 
+### `enums` con tipos de dato de respaldo
+
 Ambas constantes son de tipo `TipoDeUsuario`.
 
 Las enumeraciones también se pueden crear a partir de datos. A continuación declaramos una enumeración que tiene `String` como tipo de dato de respaldo para cada caso:
