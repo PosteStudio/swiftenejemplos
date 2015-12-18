@@ -60,3 +60,16 @@ En el listado de código anterior definimos una enumeración con dos *cases* que
 
 ```swift
 let error = Resultado.Error(404, "Página no encontrada")
+
+switch error {
+case .Error(let codigo, let descripcion):
+    print("Codigo \(codigo): " + descripcion)
+    
+case .Valor(let valor):
+    print(valor)
+}
+
+// #=> "Codigo 404: Página no encontrada"
+```
+
+El listado anterior muestra cómo podemos trabajar cuando tenemos enumeraciones con datos asociados. 
