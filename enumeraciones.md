@@ -44,3 +44,19 @@ Del mismo modo, podemos obtener el valor de respaldo de una instancia de una enu
 ```swift
 print(UtencilioDeCocina.Cuchillo.rawValue) // #=> "cuchillo"
 ```
+
+### `enums` con tipos de datos asociados
+
+Las enumeraciones, además poder tener tipos de dato de respalo, pueden, por así decirlo, transportar datos.
+
+```swift
+enum Resultado {
+    case Error(Int, String)
+    case Valor(AnyObject)
+}
+```
+
+En el listado de código anterior definimos una enumeración con dos *cases* que pueden transportar datos: `Error` que tiene asociados un `Int` y un `String`, y `Valor`, que puede transportar cualquier objeto.
+
+```swift
+let error = Resultado.Error(404, "Página no encontrada")
