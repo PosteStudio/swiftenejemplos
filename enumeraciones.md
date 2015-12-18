@@ -56,7 +56,7 @@ enum Resultado {
 }
 ```
 
-En el listado de código anterior definimos una enumeración con dos *cases* que pueden transportar datos: `Error` que tiene asociados un `Int` y un `String`, y `Valor`, que puede transportar cualquier objeto.
+En el listado de código anterior definimos una enumeración con dos *cases* que pueden transportar datos: `.Error` que tiene asociados un `Int` y un `String`, y `.Valor`, que puede transportar cualquier objeto.
 
 ```swift
 let error = Resultado.Error(404, "Página no encontrada")
