@@ -63,13 +63,13 @@ let error = Resultado.Error(404, "Página no encontrada")
 
 switch error {
 case .Error(let codigo, let descripcion):
-    print("Codigo \(codigo): " + descripcion)
+    print("Código \(codigo): " + descripcion)
     
 case .Valor(let valor):
     print(valor)
 }
 
-// #=> "Codigo 404: Página no encontrada"
+// #=> "Código 404: Página no encontrada"
 ```
 
 El listado anterior muestra cómo podemos trabajar cuando tenemos enumeraciones con datos asociados. 
