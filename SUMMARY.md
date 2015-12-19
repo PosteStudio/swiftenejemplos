@@ -19,9 +19,9 @@
 * [Swift Intermedio](swift_intermedio.md)
    * Control de flujo
    * [guard](guard.md)
+   * [where](where.md)
    * [Enumeraciones](enumeraciones.md)
    * [Opcionales](opcionales.md)
-   * [where](where.md)
    * Ciclos
    * Búsqueda de Patrones
    * Estructuras
