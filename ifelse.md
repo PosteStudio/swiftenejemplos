@@ -10,7 +10,7 @@ if numeroDeInvitados > 10 {
 }
 ```
 
-Las llaves **requeridas** en cada uno de estos bloques. Puedes escribir un `if` sin un `else`, pero no un `else` sin un `if`.
+Las llaves son **requeridas** en cada uno de estos bloques. Puedes escribir un `if` sin un `else`, pero no un `else` sin un `if`.
 
 Inmediatamente después el `if`, escribe una expresión que retorne un valor `Bool`. Si el resultado de esta expresión es `true`, se ejecutará el bloque `if`. De lo contrario, se ejecutará el bloque `else`, en caso de existir.
 
