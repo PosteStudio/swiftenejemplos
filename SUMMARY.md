@@ -18,6 +18,8 @@
    * [Tuplas](introduccion_al_lenguaje/tuplas.md)
 * [Swift Intermedio](swift_intermedio.md)
    * [Control de flujo](control_de_flujo.md)
+       * if/else
+       * switch
        * [guard](guard.md)
        * [where](where.md)
    * [Enumeraciones](enumeraciones.md)
