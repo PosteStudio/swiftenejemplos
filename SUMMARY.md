@@ -27,8 +27,8 @@
    * Ciclos
    * Búsqueda de Patrones
    * [Estructuras](estructuras.md)
-   * Propiedades
    * Clases
+   * Propiedades
    * Tipos de datos de Valor
    * Tipos de datos de Referencia
    * Extensiones
