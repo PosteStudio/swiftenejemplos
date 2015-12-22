@@ -9,6 +9,13 @@ Todos los ejemplos de este libro están probados con la última versión de Swif
 Todos los artículos en este libro están escritos usando la sintaxis Markdown. Si encuentras algún error, o quieres aportar un artículo en específico, siempre puedes [abrir un Pull Request al repositorio](https://github.com/PosteStudio/swiftenejemplos/pulls). Tu contribución será (posiblemente) editada, para posteriormente ser evaluada su inclusión en el libro.
 
 
+## Comunidad
+
+Como se dijo anteriormente, Swift en Ejemplos es un trabajo de comunidad.
+
+* [GitHub](http://github.com/postestudio/swiftenejemplos)
+* [Twitter](http://twitter.com/SwiftEnEjemplo)
+
 ## Listados de código
 A lo largo del libro encontrarás varios listados de código donde se muestran ejemplos específicos de Swift. Hay varias consideraciones al respecto:
 
