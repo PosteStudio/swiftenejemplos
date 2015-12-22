@@ -33,3 +33,16 @@ if vaso1 == vaso2 {
 Si ejecutáramos el código anterior veríamos impresa en pantalla la leyenda "El primer y el tercer vaso son iguales."
 
 Aunque realmente el espacio de memoria que ocupan `vaso1` y `vaso2` son diferentes, se considera que son iguales puesto que su contenido es idéntico.
+
+### Constructores
+
+Toda estructura con propiedades definidas tiene un constructor por defecto que requiere que se le asigne un valor a cada una de las propiedades. Si alguna de las propiedades tiene valores por defecto, dicha propiedad se omite en el constructor por defecto:
+
+```swift
+struct Animal {
+    let numeroDePatas: Int = 4
+    let familia: FamiliaAnimal
+}
+
+let animal = Animal(familia: .Felidae) // => Animal {numeroDePatas: 4, familia: Felidae }
+```
