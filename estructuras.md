@@ -142,6 +142,6 @@ oscar.nombreCompleto()              // #=> "Oscar Swanros"
 oscar.actualizarNombre("Oscar E.")  // #=> "Oscar E. Swanros"
 ```
 
-Preceder la declaración de un método con la palabra reservada `mutating` indica que dicho método, al ser ejecutado, modificará el valor sobre el que actúa (en este caso, la estructura `Persona`). Aún con esa declaración, es necesario que tanto la propiedad a mutar como la instancia del valor sean declarados como valores mutables (`var`).
+Preceder la declaración de un método con la palabra reservada `mutating` indica que dicho método, al ser ejecutado, modificará el valor sobre el que actúa (en este caso, la instancia de la estructura `Persona`). Aún con esa declaración, es necesario que tanto la propiedad a mutar como la instancia del valor sean declarados como valores mutables (`var`).
 
 Llamar un método en una estructura basta con solo poner un punto después de la instancia y llamar al método con los parámetros requeridos.
