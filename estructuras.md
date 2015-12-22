@@ -77,4 +77,4 @@ struct.swift:2:5: note: change 'let' to 'var' to make it mutable
 
 Cambiar la declaración de una propiedad de `let` a `var` hará que esa propiedad pueda ser modificada después de haber sido declarada. 
 
-Las propiedades declaradas como valores mutables (`var`) serán parte del constructor por defecto aún cuando tengan un valor inicial declarado.
+**Las propiedades declaradas como valores mutables (`var`) serán parte del constructor por defecto aún cuando tengan un valor inicial declarado.**
