@@ -27,11 +27,11 @@
    * Ciclos
    * Búsqueda de Patrones
    * [Estructuras](estructuras.md)
+   * Propiedades
    * Clases
    * Tipos de datos de Valor
    * Tipos de datos de Referencia
    * Extensiones
    * Protocolos
    * Implementación por defecto de Protocolos
-   * Propiedades
 
