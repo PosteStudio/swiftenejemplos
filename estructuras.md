@@ -106,6 +106,18 @@ Ejemplo práctico: un billete no puede cambiar su valor después de haber sido i
 Hasta ahora hemos visto solamente cómo una estructura puede representar un valor, pero no hemos hablado de cómo una estructura puede interactuar con nuestro programa.
 
 ```swift
-struct 
+struct Persona {
+    let nombre: String
+    let apellido: String
+    
+    func nombreCompleto() -> String {
+        return nombre + " " + apellido
+    }
+}
+
+let oscar = Persona(nombre: "Oscar", apellido: "Swanros")
+oscar.nombreCompleto()  // #=> "Oscar Swanros"
 ```
+
+En el ejemplo pasado, definimos una estructura llamada `Persona` con dos propiedades y un método. (Se llama "método" y no "función" puesto que se encuentra declarado como parte de la definición de un tipo de dato nuevo.)
 
