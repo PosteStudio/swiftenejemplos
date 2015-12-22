@@ -102,5 +102,7 @@ Ejemplo práctico: un billete no puede cambiar su valor después de haber sido i
 
 Piensa en ese principio cuando trabajes con `struct`s en Swift.
 
+### Métodos
+
 
 
