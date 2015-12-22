@@ -15,7 +15,7 @@ Como se dijo anteriormente, Swift en Ejemplos es un trabajo de comunidad.
 
 * [GitHub](http://github.com/postestudio/swiftenejemplos)
 * [Twitter](http://twitter.com/SwiftEnEjemplo)
-* [Equipo en Slack](http://swiftes.slack.com)
+* [Equipo en Slack](https://swiftes.herokuapp.com)   
 
 ## Listados de código
 A lo largo del libro encontrarás varios listados de código donde se muestran ejemplos específicos de Swift. Hay varias consideraciones al respecto:
