@@ -69,8 +69,8 @@ Si intentas compilar lo anterior, encontrarás el error:
 ```bash
 $ swift struct.swift
 struct.swift:8:9: error: cannot assign to property: 'valor' is a 'let' constant
-b.valor = 500   // #=> Error!
-~~~~~~~ ^
+miBillete.valor = 500   // #=> Error!
+~~~~~~~~~~~~~~~ ^
 struct.swift:2:5: note: change 'let' to 'var' to make it mutable
     let valor: Float
     ^~~
