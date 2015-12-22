@@ -51,3 +51,26 @@ let animal = Animal(familia: .Felidae) // => Animal {numeroDePatas: 4, familia: 
 
 Las estructuras con propiedades declaradas como valores inmutables `let` es por defecto inmutable por si misma.
 
+```swift
+struct Billete {
+    let valor: Float
+    let color: String
+}
+
+let b = Billete(valor: 200, color: "#68C3A3")
+b.valor         // #=> 200
+b.valor = 500   // #=> Error!
+```
+
+Si intentas compilar lo anterior, encontrarás el error:
+
+```bash
+$ swift struct.swift
+struct.swift:8:9: error: cannot assign to property: 'valor' is a 'let' constant
+b.valor = 500   // #=> Error!
+~~~~~~~ ^
+struct.swift:2:5: note: change 'let' to 'var' to make it mutable
+    let valor: Float
+    ^~~
+    var
+```
