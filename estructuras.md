@@ -77,6 +77,21 @@ struct.swift:2:5: note: change 'let' to 'var' to make it mutable
     var
 ```
 
-Cambiar la declaración de una propiedad de `let` a `var` hará que esa propiedad pueda ser modificada en tiempo de ejecución en una misma instancia. 
+Cambiar la declaración de una propiedad de `let` a `var` en la definición de una estructura hará que esa propiedad pueda ser modificada en tiempo de ejecución.
+
+Puesto que las estructuras en Swift son consideradas como entidades *de valor*, si deseas modificar una instancia de una estructura, tendrás que declarar que el valor es mutable al momento de crear la misma.
+
+```swift
+struct Billete {
+    var valor: Float
+    var color: String
+}
+
+var miBillete = Billete(valor: 200, color: "#68C3A3")
+miBillete.valor         // #=> 200
+miBillete.valor = 500   // #=> 500
+```
+
+Observa como ahora `b` es
 
 **Las propiedades declaradas como valores mutables (`var`) serán parte del constructor por defecto aún cuando tengan un valor inicial declarado.**
