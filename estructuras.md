@@ -36,7 +36,7 @@ Aunque realmente el espacio de memoria que ocupan `vaso1` y `vaso2` son diferent
 
 ### Constructores
 
-Toda estructura con propiedades definidas tiene un constructor por defecto que requiere que se le asigne un valor a cada una de las propiedades. Si alguna de las propiedades tiene valores por defecto, dicha propiedad se omite en el constructor por defecto:
+Toda estructura con propiedades definidas tiene un constructor por defecto que requiere que se le asigne un valor a cada una de las propiedades. Si alguna de las propiedades tiene un valor inicial, dicha propiedad se omite en el constructor por defecto:
 
 ```swift
 struct Animal {
