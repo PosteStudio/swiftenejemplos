@@ -81,9 +81,11 @@ Cambiar la declaración de una propiedad de `let` a `var` en la definición de u
 
 Puesto que las estructuras en Swift son consideradas como entidades *de valor*, si deseas modificar una instancia de una estructura, tendrás que declarar que el valor es mutable al momento de crear la misma.
 
+**Las propiedades declaradas como valores mutables (`var`) serán parte del constructor por defecto aún cuando tengan un valor inicial declarado.**
+
 ```swift
 struct Billete {
-    var valor: Float
+    var valor: Float = 200
     var color: String
 }
 
@@ -94,6 +96,5 @@ miBillete.valor = 500   // #=> 500
 
 Observa como ahora `miBillete` es un valor mutable (`var`), lo que significa que podemos modificar su contenido.
 
-Aunque su impacto puede parecer mínimo, el punto general de las estructuras en Swift es que sean valores inmutables. Es ampliamente recomendado que se respete este principio.
+Aunque el precio de tener una estructura mutable puede parecer mínimo, el punto general de las estructuras en Swift es que sean valores inmutables. Es ampliamente recomendado que se respete este principio.
 
-**Las propiedades declaradas como valores mutables (`var`) serán parte del constructor por defecto aún cuando tengan un valor inicial declarado.**
