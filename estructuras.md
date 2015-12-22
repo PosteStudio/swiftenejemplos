@@ -104,5 +104,5 @@ Piensa en ese principio cuando trabajes con `struct`s en Swift.
 
 ### Métodos
 
-Hasta ahora hemos visto solamente cómo una estructura puede representar un valor
+Hasta ahora hemos visto solamente cómo una estructura puede representar un valor, pero no hemos hablado de cómo una estructura puede interactuar con nuestro programa.
 
