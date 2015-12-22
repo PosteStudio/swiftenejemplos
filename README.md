@@ -26,7 +26,8 @@ Espero que disfrutes SwiftEnEjemplos.com. Pero aún más, que te sea útil y te 
 
 — O.
 
+* [@SwiftEnEjemplo en Twitter](http://twitter.com/SwiftEnEjemplo)
+* 
 * http://swanros.com
 * [oscar@swanros.com](mailto:oscar@swanros.com?subject=SwiftEnEjemplos.com)
 * [@Swanros en Twitter](http://twitter.com/Swanros)
-* [@SwiftEnEjemplo en Twitter](http://twitter.com/SwiftEnEjemplo)
