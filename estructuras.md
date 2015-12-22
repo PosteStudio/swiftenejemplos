@@ -14,7 +14,9 @@ El listado de código anterior define una estructura llamada `Vaso` que tiene do
 1. `contenido`, de tipo `String`
 2. `capacidad`, de tipo `Float`
 
-Las estructuras representan unidades de información. A diferencia de las clases (que se discutirán en el capítulo siguiente), lo que importa con las estructuras en Swift es su contenido. Si una estructura (A) tiene los mismos valores en sus propiedades que otra estructura (B), se considera que A y B son iguales, por lo tanto, son intercambiables.
+Las estructuras representan unidades de información. A diferencia de las clases (que se discutirán en el capítulo siguiente), lo que importa con las estructuras en Swift es su contenido. 
+
+**Si una estructura (A) tiene los mismos valores en sus propiedades que otra estructura (B), se considera que A y B son iguales.** Por lo tanto, son intercambiables.
 
 ```swift
 let vaso1 = Vaso(contenido: "Agua", capacidad: 350)
