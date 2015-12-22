@@ -40,10 +40,14 @@ Toda estructura con propiedades definidas tiene un constructor por defecto que r
 
 ```swift
 struct Animal {
-    let numeroDePatas: Int = 4
+    let numeroDePatas = 4
     let familia: FamiliaAnimal
 }
 
 let animal = Animal(familia: .Felidae) // => Animal {numeroDePatas: 4, familia: Felidae }
 ```
+
+### Modificando una estructura
+
+Las estructuras con propiedades declaradas como valores inmutables `let` es por defecto inmutable por si misma.
 
