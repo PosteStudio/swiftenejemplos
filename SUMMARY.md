@@ -26,7 +26,7 @@
    * [Opcionales](opcionales.md)
    * Ciclos
    * Búsqueda de Patrones
-   * Estructuras
+   * [Estructuras](estructuras.md)
    * Clases
    * Tipos de datos de Valor
    * Tipos de datos de Referencia
