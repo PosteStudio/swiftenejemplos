@@ -59,9 +59,9 @@ struct Billete {
     let color: String
 }
 
-let b = Billete(valor: 200, color: "#68C3A3")
-b.valor         // #=> 200
-b.valor = 500   // #=> Error!
+let miBillete = Billete(valor: 200, color: "#68C3A3")
+miBillete.valor         // #=> 200
+miBillete.valor = 500   // #=> Error!
 ```
 
 Si intentas compilar lo anterior, encontrarás el error:
