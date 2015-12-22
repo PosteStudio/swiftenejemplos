@@ -105,3 +105,6 @@ Ejemplo práctico: un billete no puede cambiar su valor después de haber sido i
 
 Hasta ahora hemos visto solamente cómo una estructura puede representar un valor, pero no hemos hablado de cómo una estructura puede interactuar con nuestro programa.
 
+```swift
+struct 
+
