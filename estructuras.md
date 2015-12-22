@@ -94,7 +94,7 @@ miBillete.valor         // #=> 200
 miBillete.valor = 500   // #=> 500
 ```
 
-Observa como ahora `miBillete` es un valor mutable (`var`), lo que significa que podemos modificar su contenido.
+Observa cómo ahora `miBillete` es un valor mutable (`var`), lo que significa que podemos modificar su contenido.
 
 Aunque el precio de tener una estructura mutable puede parecer mínimo, el punto general de las estructuras en Swift es que sean valores inmutables. Es ampliamente recomendado que se respete este principio.
 
