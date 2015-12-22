@@ -121,3 +121,24 @@ oscar.nombreCompleto()  // #=> "Oscar Swanros"
 
 En el ejemplo pasado, definimos una estructura llamada `Persona` con dos propiedades y un método. (Se llama "método" y no "función" puesto que se encuentra declarado como parte de la definición de un tipo de dato nuevo.)
 
+Dentro de nuestro método podemos usar las propiedades de nuestra estructura. Por ahora, sólo estamos leyendo los valores `nombre` y `apellido` y los estamos concatenando. Pero ¿qué pasaría si quisiéramos un método que modifique los valores en nuestra estructura? Hay que especificarlo:
+
+```swift
+struct Persona {
+    let nombre: String
+    let apellido: String
+    
+    func nombreCompleto() -> String {
+        return nombre + " " + apellido
+    }
+    
+    mutating func actualizarNombre(nuevoNombre: String) {
+        nombre = nuevoNombre
+    }
+}
+
+let oscar = Persona(nombre: "Oscar", apellido: "Swanros")
+oscar.nombreCompleto()  // #=> "Oscar Swanros"
+```
+
+Llamar un método en una estructura basta con solo poner un punto después de la instancia y llamar al método con los parámetros requeridos.
