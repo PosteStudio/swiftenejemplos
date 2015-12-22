@@ -125,7 +125,7 @@ Dentro de nuestro método podemos usar las propiedades de nuestra estructura. Po
 
 ```swift
 struct Persona {
-    let nombre: String
+    var nombre: String
     let apellido: String
     
     func nombreCompleto() -> String {
@@ -137,8 +137,9 @@ struct Persona {
     }
 }
 
-let oscar = Persona(nombre: "Oscar", apellido: "Swanros")
-oscar.nombreCompleto()  // #=> "Oscar Swanros"
+var oscar = Persona(nombre: "Oscar", apellido: "Swanros")
+oscar.nombreCompleto()              // #=> "Oscar Swanros"
+oscar.actualizarNombre("Oscar E.")  // #=> "Oscar E. Swanros"
 ```
 
 Llamar un método en una estructura basta con solo poner un punto después de la instancia y llamar al método con los parámetros requeridos.
