@@ -138,8 +138,8 @@ struct Persona {
 }
 
 var mutante = Persona(nombre: "Oscar", apellido: "Xavier")
-mutante.nombreCompleto()              // #=> "Oscar Xavier"
-mutante.actualizarNombre("Charles")  // #=> "Charles Swanros"
+mutante.nombreCompleto()            // #=> "Oscar Xavier"
+mutante.actualizarNombre("Charles") // #=> "Charles Swanros"
 ```
 
 Preceder la declaración de un método con la palabra reservada `mutating` indica que dicho método, al ser ejecutado, modificará el valor sobre el que actúa (en este caso, una instancia de la estructura `Persona`). Aún con esa declaración, es necesario que tanto la propiedad a mutar como la instancia del valor sean declarados como valores mutables (`var`).
