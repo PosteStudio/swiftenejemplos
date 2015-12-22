@@ -46,3 +46,4 @@ struct Animal {
 
 let animal = Animal(familia: .Felidae) // => Animal {numeroDePatas: 4, familia: Felidae }
 ```
+
