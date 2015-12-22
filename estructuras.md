@@ -98,3 +98,9 @@ Observa como ahora `miBillete` es un valor mutable (`var`), lo que significa que
 
 Aunque el precio de tener una estructura mutable puede parecer mínimo, el punto general de las estructuras en Swift es que sean valores inmutables. Es ampliamente recomendado que se respete este principio.
 
+Ejemplo práctico: un billete no puede cambiar su valor después de haber sido impreso. Puedes tener dos billetes iguales, del mismo valor, del mismo color, y puedes intercambiarlos por otros billetes del mismo valor. Al final de cuenta, te importa cuánto vale, no un billete en específico. 
+
+Piensa en ese principio cuando trabajes con `struct`s en Swift.
+
+
+
