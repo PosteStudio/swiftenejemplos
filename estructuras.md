@@ -100,7 +100,6 @@ Aunque el precio de tener una estructura mutable puede parecer mínimo, el punto
 
 Ejemplo práctico: un billete no puede cambiar su valor después de haber sido impreso. Puedes tener dos billetes iguales, del mismo valor, del mismo color, y puedes intercambiarlos por otros billetes del mismo valor. Al final de cuenta, te importa cuánto vale, no un billete en específico. 
 
-Piensa en ese principio cuando trabajes con `struct`s en Swift.
 
 ### Métodos
 
