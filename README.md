@@ -16,7 +16,7 @@ Puedes encontrar más información sobre el libro y cómo usarlo en [Cómo usar 
 
 Como todo en el mundo de la programación, Swift es un lenguaje que está cambiando día con día (más ahora que es un [proyecto de código libre](http://swift.org)). Este proyecto, de igual forma, es un trabajo en proceso y cualquier aportación es agradecida. 
 
-Conoce más acerca de cómo puedes contribuir a SwiftEnEjemplos.com en la sección [Errores en los artículos y contribuciones](http://www.swiftenejemplos.com/como_usar_este_libro.html#errores-en-los-art%C3%ADculos-y-contribuciones)
+Si SwiftEnEjemplos.com te ha sido de ayuda alguna, te pido por favor que consideres convertirte en un *patrón* y apoyes desde $1 USD al mes a que SwiftEnEjemplos.com se mantenga siempre vigente. Conoce más [aquí](https://www.patreon.com/enejemplos).
 
 ---
 
