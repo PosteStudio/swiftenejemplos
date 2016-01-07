@@ -23,9 +23,9 @@
        * [where](where.md)
    * [Enumeraciones](enumeraciones.md)
    * [Opcionales](opcionales.md)
-   * [switch](switch.md)
    * Ciclos
    * Búsqueda de Patrones
+   * [switch](switch.md)
    * [Estructuras](estructuras.md)
    * Clases
    * Propiedades
