@@ -19,11 +19,11 @@
 * [Swift Intermedio](swift_intermedio.md)
    * [Control de flujo](control_de_flujo.md)
        * [if/else](ifelse.md)
-       * [switch](switch.md)
        * [guard](guard.md)
        * [where](where.md)
    * [Enumeraciones](enumeraciones.md)
    * [Opcionales](opcionales.md)
+   * [switch](switch.md)
    * Ciclos
    * Búsqueda de Patrones
    * [Estructuras](estructuras.md)
