@@ -24,8 +24,8 @@
    * [Enumeraciones](enumeraciones.md)
    * [Opcionales](opcionales.md)
    * Ciclos
-   * Búsqueda de Patrones
    * [switch](switch.md)
+   * Búsqueda de Patrones
    * [Estructuras](estructuras.md)
    * Clases
    * Propiedades
