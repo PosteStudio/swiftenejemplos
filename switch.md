@@ -51,6 +51,7 @@ switch Nombre {
     
     default:
         mostrarContenidoGeneral()
+}
 ```
 
 ... y muchos más, que veremos en capítulos siguientes.
